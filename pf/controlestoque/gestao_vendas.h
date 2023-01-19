@@ -15,6 +15,9 @@ public:
     explicit gestao_vendas(QWidget *parent = nullptr);
     ~gestao_vendas();
     Conexao con;
+private slots:
+    void on_tw_listadeprodutosvendas_itemSelectionChanged();
+
 private:
     Ui::gestao_vendas *ui;
 };
