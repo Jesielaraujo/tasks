@@ -3,6 +3,13 @@
 
 
 ##infos
+###Compilar
+
+1) gmake -project
+2) qmake controlestoque.pro
+3) make -f Makefile
+
+
 ###Login
 - User = adm
 - Senha = 123
